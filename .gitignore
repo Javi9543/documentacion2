@@ -1,0 +1,11 @@
+.venv
+.vscode
+__pycache__
+_sources
+.buildinfo
+_static
+_index.rst
+conf.py
+index.rst
+make.bat
+Makefile
