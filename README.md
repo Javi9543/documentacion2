@@ -5,5 +5,7 @@
 
 3- Una vez generado el index.html que se encontrará en docs/php/ le das clic y se te abrirá el index.html
 
-4- Evidencia del index.html en funcionamiento: 
-![alt text](./img/image.png)
+
+## JSDOC
+1- Necesitaremos tener instalado node.js
+2- Lanzamos el comando `npx jsdoc calculadoraPrecios.js -d ./docs/js`
