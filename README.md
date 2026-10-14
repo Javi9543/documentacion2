@@ -8,4 +8,7 @@
 
 ## JSDOC
 1- Necesitaremos tener instalado node.js
-2- Lanzamos el comando `npx jsdoc calculadoraPrecios.js -d ./docs/js`
+
+2- Lanzamos el comando `npx jsdoc ./js/calculadoraPrecios.js -d ./js/docs`
+
+3- Una vez generado el index.html que se encontrará en docs/ (dentro de la carpeta js) le das clic y se te abrirá el index.htmlgit 
