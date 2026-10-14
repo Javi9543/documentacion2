@@ -9,6 +9,6 @@ Programa de precios que calcula precios :
 
 # Documentacion
 
-1 - Acceso a documentacion de JS: js>docs>index.html 
-2 - Acceso a documentacion de PHP: php 
+1 - Acceso a documentacion de JS: js>docs>index.html <br>
+2 - Acceso a documentacion de PHP: php <br>
 3 - Acceso a documentacion de Python python>_build>index.html 
