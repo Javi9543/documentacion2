@@ -39,6 +39,70 @@
 documentation for details.</p>
 <div class="toctree-wrapper compound">
 </div>
+<p id="module-calculadoraPrecios">&#64;file calculadoraPrecios.py
+&#64;brief Aplicacion de calculadora de precios en Python
+&#64;author Javier Muñoz Parra</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="calculadoraPrecios.calcular_descuento">
+<span class="sig-prename descclassname"><span class="pre">calculadoraPrecios.</span></span><span class="sig-name descname"><span class="pre">calcular_descuento</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">precio</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">descuento</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/calculadoraPrecios.html#calcular_descuento"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#calculadoraPrecios.calcular_descuento" title="Link to this definition">¶</a></dt>
+<dd><p>Calculo de descuento.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>precio</strong> (<em>float</em>) – Precio del producto.</p></li>
+<li><p><strong>descuento</strong> (<em>float</em>) – Porcentaje de descuento.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Devuelve<span class="colon">:</span></dt>
+<dd class="field-even"><p>Precio final tras aplicar el descuento.</p>
+</dd>
+<dt class="field-odd">Tipo del valor devuelto<span class="colon">:</span></dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="calculadoraPrecios.calcular_precio_final">
+<span class="sig-prename descclassname"><span class="pre">calculadoraPrecios.</span></span><span class="sig-name descname"><span class="pre">calcular_precio_final</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">precio</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">descuento</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">porc_iva</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/calculadoraPrecios.html#calcular_precio_final"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#calculadoraPrecios.calcular_precio_final" title="Link to this definition">¶</a></dt>
+<dd><p>Calculo del precio final completo.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>precio</strong> (<em>float</em>) – Precio base del producto.</p></li>
+<li><p><strong>descuento</strong> (<em>float</em>) – Porcentaje de descuento.</p></li>
+<li><p><strong>porc_iva</strong> (<em>float</em>) – Porcentaje de IVA.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Devuelve<span class="colon">:</span></dt>
+<dd class="field-even"><p>Precio final completo con descuento e IVA aplicados.</p>
+</dd>
+<dt class="field-odd">Tipo del valor devuelto<span class="colon">:</span></dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="calculadoraPrecios.calcular_precio_iva">
+<span class="sig-prename descclassname"><span class="pre">calculadoraPrecios.</span></span><span class="sig-name descname"><span class="pre">calcular_precio_iva</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">precio</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">porc_iva</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/calculadoraPrecios.html#calcular_precio_iva"><span class="viewcode-link"><span class="pre">[fuente]</span></span></a><a class="headerlink" href="#calculadoraPrecios.calcular_precio_iva" title="Link to this definition">¶</a></dt>
+<dd><p>Calculo del precio del IVA.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>precio</strong> (<em>float</em>) – Es el precio base del producto.</p></li>
+<li><p><strong>porc_iva</strong> (<em>float</em>) – Porcentaje de IVA.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Devuelve<span class="colon">:</span></dt>
+<dd class="field-even"><p>Precio final con el IVA incluido.</p>
+</dd>
+<dt class="field-odd">Tipo del valor devuelto<span class="colon">:</span></dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
 </section>
 
 
